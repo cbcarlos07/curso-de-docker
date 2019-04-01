@@ -17,3 +17,12 @@ Acessar o arquivo check.sql
 Verificar os logs
 
     $ docker-compose logs -f -t
+
+
+Docker apache, mysql, php
+    
+    https://gotechnies.com/docker-compose-yml-mysql-phpmyadmin/
+
+    https://gist.github.com/jcavat/2ed51c6371b9b488d6a940ba1049189b
+
+    https://github.com/mzazon/php-apache-mysql-containerized
