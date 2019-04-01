@@ -14,3 +14,6 @@ Acessar o arquivo check.sql
     postgres: usuário do banco
     -f: arquivo que será executado
 
+Verificar os logs
+
+    $ docker-compose logs -f -t
