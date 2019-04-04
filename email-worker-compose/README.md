@@ -47,5 +47,8 @@ Docker apache, mysql, php
 
     https://writing.pupius.co.uk/apache-and-php-on-docker-44faef716150
 
-    PHP7
+PHP7
+
+Se for se basear em arquivo `.env` tem que o comando `$ docker-compose` config antes de dar o `$ docker-compose up`
+
     https://github.com/sprintcube/docker-compose-lamp/tree/7.2.x
