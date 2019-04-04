@@ -18,6 +18,17 @@ Verificar os logs
 
     $ docker-compose logs -f -t
 
+Tag no docker-compose
+
+    A tag build dentro do serviço refere-se à imagem definida no arquivo Dockerfile
+
+Escalando container
+
+    $ docker-compose up -d --scale worker=3
+
+No arquivo docker-compose:
+
+    A tag environment dentro do serviço é a possibilidade de personalizar variaveis de ambiente
 
 Docker apache, mysql, php
     
