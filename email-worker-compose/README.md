@@ -46,3 +46,6 @@ Docker apache, mysql, php
     https://github.com/mzazon/php-apache-mysql-containerized
 
     https://writing.pupius.co.uk/apache-and-php-on-docker-44faef716150
+
+    PHP7
+    https://github.com/sprintcube/docker-compose-lamp/tree/7.2.x
