@@ -30,6 +30,13 @@ No arquivo docker-compose:
 
     A tag environment dentro do serviço é a possibilidade de personalizar variaveis de ambiente
 
+Chamar o docker-compose baseado em configuracao de variáveis de ambiente producao ou simulacao
+
+    docker-compose -f docker-compose.dev.yml up -d
+
+    export COMPOSE_FILE=docker-compose.dev.yml
+    docker-compose up -d
+
 Docker apache, mysql, php
     
     https://gotechnies.com/docker-compose-yml-mysql-phpmyadmin/
